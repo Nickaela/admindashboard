@@ -11,36 +11,38 @@
    <div class="dashboard">
 
     <div class="sidebar">
-        <div class="logo">
-            <img src="icons/view-dashboard.svg">Dashboard
+        <div class="icon" id="icondash">
+            <img src="icons/view-dashboard.svg" id="logoimg"><span class="nav" id="logo">Dashboard</span>
         </div>
 
         <div class="sidebar-1">
-            <div><img src="icons/home.svg">Home</div>
-            <div><img src="icons/card-account-details.png">Profile</div>
-            <div><img src="icons/message-reply.png">Messages</div>
-            <div><img src="icons/clock-time-three-outline.svg">History</div>
-            <div><img src="icons/note-multiple.svg">Tasks</div>
-            <div><img src="icons/account-group.svg">Communities</div>
+            <div class="icon"><img src="icons/home.svg"><span class="nav">Home</span></div>
+            <div class="icon"><img src="icons/card-account-details.png"><span class="nav">Profile</span></div>
+            <div class="icon"><img src="icons/message-reply.png"><span class="nav">Messages</span></div>
+            <div class="icon"><img src="icons/clock-time-three-outline.svg"><span class="nav">History</span></div>
+            <div class="icon"><img src="icons/note-multiple.svg"><span class="nav">Tasks</span></div>
+            <div class="icon"><img src="icons/account-group.svg"><span class="nav">Communities</span></div>
         </div>
 
         <div class="sidebar-2">
-            <div><img src="icons/cog.svg">Settings</div>
-            <div><img src="icons/help-box.svg">Support</div>
-            <div><img src="icons/shield-check.svg">Privacy</div>
+            <div class="icon"><img src="icons/cog.svg"><span class="nav">Settings</span></div>
+            <div class="icon"><img src="icons/help-box.svg"><span class="nav">Support</span></div>
+            <div class="icon"><img src="icons/shield-check.svg"><span class="nav">Privacy</span></div>
         </div>
     </div>
 
     <div class="header">
-        <div><img src="icons/magnify.svg"></div>
-        <input type="search">
+        <div class="header1"><img src="icons/magnify.svg">
+        <input type="search"></div>
 
-        <div><img src="icons/bell-ring-outline.svg"><img src="icons/eren.jpg"> Eren Yeager</div>
+        <div class="header2"><img src="icons/bell-ring-outline.svg"><img src="icons/eren.jpg"> Eren Yeager</div>
     
-        <div><img src="icons/eren.jpg"></div>
-        <div>Hi there, Eren Yeager (@eren)</div>
+        <div class="header3"><img src="icons/eren.jpg" id="erenleft">
+            <div class="eren"><span id="hi">Hi there,</span><span>Eren Yeager (@eren)</span></div>
+        </div>
+        
 
-        <div>
+        <div class="button">
             <button>New</button>
             <button>Upload</button>
             <button>Share</button>
@@ -50,37 +52,85 @@
    <div class="main-content">
         
         <div class="projects">
-    <p>Your Projects</p>
+    <p class="p">Your Projects</p>
 
     <div class="cardsofprojects">
         <div class="card">
-            <p class="title">Article Title</p>
-            <p>Lorem ipsum</p>
+            <div class="title">Super Cool Project</div>
+            <div>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id
+                facilisis felis accumsan nec.
+            </div>
+            <div class="cardimg">
+                <img src="icons/star-plus-outline.svg">
+                <img src="icons/eye-plus-outline.svg">
+                <img src="icons/source-fork.svg">
+            </div>
         </div>
 
         <div class="card">
-            <p class="title">Article Title</p>
-            <p>Lorem ipsum</p>
+            <div class="title">Less Cool Project</div>
+            <div>Nullam condimentum ipsum ut lectus vehicula consectetur.
+                Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor.
+                Duis sem purus, dignissim ut sapien in, varius pellentesque
+                lacus.
+            </div>
+            <div class="cardimg">
+                <img src="icons/star-plus-outline.svg">
+                <img src="icons/eye-plus-outline.svg">
+                <img src="icons/source-fork.svg">
+            </div>
         </div>
 
         <div class="card">
-            <p class="title">Article Title</p>
-            <p>Lorem ipsum</p>
+            <div class="title">Impossible App</div>
+            <div>In hac habitasse platea dictumst. Vivamus dictum rutrum
+                arcu, a placerat velit sagittis id.
+            </div>
+            <div class="cardimg">
+                <img src="icons/star-plus-outline.svg">
+                <img src="icons/eye-plus-outline.svg">
+                <img src="icons/source-fork.svg">
+            </div>
         </div>
 
         <div class="card">
-            <p class="title">Article Title</p>
-            <p>Lorem ipsum</p>
+            <div class="title">Easy Peasy App</div>
+            <div>Etiam cursus eros ac efficitur fringilla. Vestibulum
+                dignissim urna eget accumsan aliquam. Curabitur
+                dignissim nisi in tortor commodo, ac bibendum magna
+                tincidunt.
+            </div>
+            <div class="cardimg">
+                <img src="icons/star-plus-outline.svg">
+                <img src="icons/eye-plus-outline.svg">
+                <img src="icons/source-fork.svg">
+            </div>
         </div>
 
         <div class="card">
-            <p class="title">Article Title</p>
-            <p>Lorem ipsum</p>
+            <div class="title">Ad Blocker</div>
+            <div>Quisque eget rutrum nisl. Nam augue justo, cursus
+                vitae metus vel, pharetra hendrerit felis. aliquam
+                sed malesuada eros.
+            </div>
+            <div class="cardimg">
+                <img src="icons/star-plus-outline.svg">
+                <img src="icons/eye-plus-outline.svg">
+                <img src="icons/source-fork.svg">
+            </div>
         </div>
 
         <div class="card">
-            <p class="title">Article Title</p>
-            <p>Lorem ipsum</p>
+            <div class="title">Money Maker</div>
+            <div>Praesent convallis, libero quis congue elementum, nunc
+                ante faucibus sapien, ac scelerisque tortor purus
+                sit amet ex. Pellentesque mollis nec sem vel aliquam.
+            </div>
+            <div class="cardimg">
+                <img src="icons/star-plus-outline.svg">
+                <img src="icons/eye-plus-outline.svg">
+                <img src="icons/source-fork.svg">
+            </div>
         </div>
 
         </div>
