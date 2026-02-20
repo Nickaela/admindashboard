@@ -79,11 +79,13 @@ input {
     gap: 15px;
     justify-content: end;
     padding-right: 10px;
+    position: relative;
 }
 
 .header3{
-    display: flex;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    position: relative;
 }
 
 .eren{
@@ -93,12 +95,19 @@ input {
 }
 
 #erenleft{
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
 }
 
-#hi{
-    font-size: 12px;
+#erenright{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 8px;
 }
 
 button{
@@ -119,7 +128,7 @@ button{
     gap: 10px;
 }
 
-.main-content{
+.main{
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -147,12 +156,6 @@ button{
   );
 }
 
-.cardsofannouncements{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    border: 1px solid brown;
-}
-
 .cardimg{
     display: flex;
     gap: 15px;
@@ -166,6 +169,87 @@ button{
     font-weight: 700;
 }
 
-.p{
+.card1s{
+    background-color: white;
+    border-radius: 15px;
+    height: 100px;
+}
+
+.cardsofannouncements{
+    margin-right: 30px;
+}
+
+.ca1{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+}
+
+hr{
+    border: 1px solid #d7d7d7;
+    width: 400px;
+}
+
+.cardmessage{
+    color: #5f5f5f;
+}
+
+.trendingcard{
+    background-color: white;
+    border-radius: 10px;
+    height: 439px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+.eren{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.trendingcolumn1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.trendingcolumn2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 15px 0px 10px 0px;
+}
+
+.tr{
+    display: flex;
+    flex-direction: column;
+}
+
+.announcements{
+    position: relative;  
+}
+
+.trending{
+    position: absolute;
+    font-weight: 700;
+    font-size: 25px;
+    top: 350px;
+}
+
+.yourprojects{
     padding-left: 15px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.announce{
+    font-weight: 700;
+    font-size: 25px;
 }

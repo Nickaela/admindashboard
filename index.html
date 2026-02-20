@@ -35,10 +35,11 @@
         <div class="header1"><img src="icons/magnify.svg">
         <input type="search"></div>
 
-        <div class="header2"><img src="icons/bell-ring-outline.svg"><img src="icons/eren.jpg"> Eren Yeager</div>
+        <div class="header2"><img src="icons/bell-ring-outline.svg"><img src="icons/eren.jpg" id="erenright"> Eren Yeager</div>
     
-        <div class="header3"><img src="icons/eren.jpg" id="erenleft">
-            <div class="eren"><span id="hi">Hi there,</span><span>Eren Yeager (@eren)</span></div>
+        <div class="header3">
+            <div><img src="icons/eren.jpg" id="erenleft"></div>
+            <div><p style="font-size: 12px;">Hi, there</p><p">Eren Yeager (@eren)</p></div>
         </div>
         
 
@@ -49,15 +50,15 @@
         </div>
     </div>
 
-   <div class="main-content">
+   <div class="main">
         
-        <div class="projects">
-    <p class="p">Your Projects</p>
+    <div class="projects">
+    <p class="yourprojects">Your Projects</p>
 
     <div class="cardsofprojects">
         <div class="card">
             <div class="title">Super Cool Project</div>
-            <div>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id
+            <div class="cardmessage">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id
                 facilisis felis accumsan nec.
             </div>
             <div class="cardimg">
@@ -69,7 +70,7 @@
 
         <div class="card">
             <div class="title">Less Cool Project</div>
-            <div>Nullam condimentum ipsum ut lectus vehicula consectetur.
+            <div class="cardmessage">Nullam condimentum ipsum ut lectus vehicula consectetur.
                 Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor.
                 Duis sem purus, dignissim ut sapien in, varius pellentesque
                 lacus.
@@ -83,7 +84,7 @@
 
         <div class="card">
             <div class="title">Impossible App</div>
-            <div>In hac habitasse platea dictumst. Vivamus dictum rutrum
+            <div class="cardmessage">In hac habitasse platea dictumst. Vivamus dictum rutrum
                 arcu, a placerat velit sagittis id.
             </div>
             <div class="cardimg">
@@ -95,7 +96,7 @@
 
         <div class="card">
             <div class="title">Easy Peasy App</div>
-            <div>Etiam cursus eros ac efficitur fringilla. Vestibulum
+            <div class="cardmessage">Etiam cursus eros ac efficitur fringilla. Vestibulum
                 dignissim urna eget accumsan aliquam. Curabitur
                 dignissim nisi in tortor commodo, ac bibendum magna
                 tincidunt.
@@ -109,7 +110,7 @@
 
         <div class="card">
             <div class="title">Ad Blocker</div>
-            <div>Quisque eget rutrum nisl. Nam augue justo, cursus
+            <div class="cardmessage">Quisque eget rutrum nisl. Nam augue justo, cursus
                 vitae metus vel, pharetra hendrerit felis. aliquam
                 sed malesuada eros.
             </div>
@@ -122,7 +123,7 @@
 
         <div class="card">
             <div class="title">Money Maker</div>
-            <div>Praesent convallis, libero quis congue elementum, nunc
+            <div class="cardmessage">Praesent convallis, libero quis congue elementum, nunc
                 ante faucibus sapien, ac scelerisque tortor purus
                 sit amet ex. Pellentesque mollis nec sem vel aliquam.
             </div>
@@ -137,34 +138,56 @@
         </div>
     
         <div class="announcements">
-        <p>Announcements</p>
+        <p class="announce">Announcements</p>
 
         <div class="cardsofannouncements">
 
-            <div class="card1">
-                <p class="title">Site Maintenance</p>
-                <p>Lorem ipsum</p>
+            <div class="ca1">
+                
+                <div class="title">Site Maintenance</div>
+                <div class="cardmessage">Vestibulum condimentum tellus lacus,
+                    in accumsan elit maximus ac. Donec
+                    hendrerit sodales congue...
+                </div>
+                <hr>
+
+                <div class="title">Community Share Day</div>
+                <div class="cardmessage">Nam vel tincidunt, rutrum  nulla eu,
+                    ornare libero. Aliquam dictum accumsan
+                    porttitor...
+                </div>
+                <hr>
+
+                <div class="title">Updated Privacy Policy</div>
+                <div class="cardmessage">Phasellus efficitur nisi eget elit
+                    consectetur, eget condimentum ante auctor.
+                    Cras fringilla sagittis sem in mattis...
+                </div>
+
             </div>
 
-            <div class="card1">
-                <p class="title">Site Maintenance</p>
-                <p>Lorem ipsum</p>
+            
+            <p class="trending">Trending</p>
+
+            <div class="trendingcard">
+
+                <div class="trendingcolumn1">
+                    <div><img src="icons/mikasaackerman-jqag.png" class="eren"></div>
+                    <div><img src="icons/armin.jpg" class="eren"></div>
+                    <div><img src="icons/mikasaackerman-jqag.png" class="eren"></div>
+                    <div><img src="icons/armin.jpg" class="eren"></div>
+                </div>
+
+                <div class="trendingcolumn2">
+                    <div class="tr"><span>@tegan</span><span>World Peace Builder</span></div>
+                    <div class="tr"><span>@tegan</span><span>World Peace Builder</span></div>
+                    <div class="tr"><span>@tegan</span><span>World Peace Builder</span></div>
+                    <div class="tr"><span>@tegan</span><span>World Peace Builder</span></div>
+                </div>
+
             </div>
 
-            <div class="card1">
-                <p class="title">Site Maintenance</p>
-                <p>Lorem ipsum</p>
-            </div>
-
-            <p>Trending</p>
-            <div class="card1">
-                <img src="icons/dog-side.svg"><p>@tegan</p><p>World Peace Builder</p>
-                <img src="icons/dog-side.svg"><p>@tegan</p><p>World Peace Builder</p>
-                <img src="icons/dog-side.svg"><p>@tegan</p><p>World Peace Builder</p>
-                <img src="icons/dog-side.svg"><p>@tegan</p><p>World Peace Builder</p>
-            </div>
-
-            </div> 
+            
         </div>
 
    </div>
